@@ -16,7 +16,7 @@ Create a sticker store, where user generate images and print from the shop.
 ### Android App
 | Splash Screen  | Main App Screen | Output Screen |
 |---| ---| ---|
-|  ![First Image](https://github.com/Iamsdt/DeployBNDegit/blob/master/img/bn1.png)  | ![Second Image](https://github.com/Iamsdt/DeployBNDegit/blob/master/img/bn2.png) | |
+|  ![Splash Screen](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175641.png)  | ![Main Page](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175654.png) | ![Output screen](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175717.png) |
 
 # Architecture
 This app contain 3 parts
