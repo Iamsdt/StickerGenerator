@@ -21,6 +21,8 @@ Create a sticker store, where user generate images and print from the shop.
 ## Test
 Download And install [Android App](https://github.com/Iamsdt/StickerGenerator/blob/master/app/release/app-release.apk)
 
+Notebook: [Anim Generator Gan PyTorch](https://www.kaggle.com/iamsdt/anim-generator-gan-pytorch)
+
 See Server Code: [Server Code](https://github.com/Iamsdt/StickerGenerator/tree/master/server)
 
 Browse Server [Sticker Generator](https://anime-generator.herokuapp.com/)
