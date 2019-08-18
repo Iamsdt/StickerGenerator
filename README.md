@@ -33,23 +33,24 @@ This app contain 3 parts
 **Datasets Provider**:
 
 ### Architecture
-#### For Generator:
-##### ConvTranspose2d Layer  
-- Layers: 5
-- Normalization: BatchNorm2d
-- Activation Function: ReLU, TanH
+| Generator | Discriminator|
+|---| ---|
+|5 ConvTranspose2d Layers | 5 Conv2d layers|
+| Normalization: BatchNorm2d | Normalization: BatchNorm2d|
+| Activation Function: ReLU, TanH | Activation Function: LeakyReLU, Sigmoid|
 
-#### For Discriminator:
-
-#### Others:
-- Epoch: 300
-- Learning Rate: 1e-3
-- Loss function: BCSLoss
-- Optimizer: Adam
-- Transformations:
-    - Resize(64),
-    - Center Crop(64)
-    - RandomRotation(30),
+#### Hyper Parameters:
+| Hyper Parameters|
+|---|
+|Epoch: 500 |
+| Batch Size: 128 |
+| Learning Rate: 0.0002 |
+| Loss function: BCELoss |
+| Optimizer: Adam |
+| Betas: (0.5, 0.999)|
+| Transformations: Resize(64), Center Crop(64), RandomRotation(30) |
+| Image Size: 64 |
+| Generator input: 100 |
 
 #### Others Libraries
 - Numpy
@@ -70,13 +71,14 @@ A rest api is developed by using flask, the api takes number of images
 as parameters and generate images, then make a grid image. And return
 the image in base64 encoded string.
 
-#### Used Libraries-
-1. Flask
-1. Pyorch
-1. TorchVision
-2. Numpy
-3. Gunicorn
-4. Imageio
+| Used Libraries|
+| --- |
+| Flask
+| Pyorch
+| TorchVision
+| Numpy
+| Gunicorn
+| Imageio
 
 
 ## Develop Android App
@@ -91,14 +93,15 @@ This app contain 4 screens -
 - About Screen 
 
 #### Design Pattern - MVVM
-#### Used Libraries-
-1. Live Data
-2. ViewModel
-4. Kotlin Coroutines
-3. Retrofit
-1. GSON
-1. Timber
-1. UCE-Handler
+| Used Libraries
+| ---
+| Live Data
+| ViewModel
+| Kotlin Coroutines
+| Retrofit
+| GSON
+| Timber
+| UCE-Handler
 
 # Develpoer
 **Shudipto Trafder**
