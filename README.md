@@ -1,8 +1,5 @@
 # Project: Sticker Generator
-An Android App where user can generate a grid of sticker image, and user
-can also save that image for further uses. In the backend gan model is
-used to generate new Images and by using rest api those images bring to
-android app.
+An Android App where the user can generate a grid of sticker image, and the user can also save that image for further uses. In the backend gan model is used to generate new Images and by using rest API those images bring to android app.
 
 ## Future Possibilities
 Create a sticker store, where user generate images and print from the shop.
