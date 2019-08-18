@@ -11,7 +11,7 @@ Create a sticker store, where user generate images and print from the shop.
 ### GAN Model output
 | First Image  | Second Image |
 |---| ---|
-|  ![First Image](https://github.com/Iamsdt/StickerGenerator/blob/master/img/output.png)  | ![Second Image](https://github.com/Iamsdt/StickerGenerator/blob/master/img/output3.png) |
+|  ![First Image](https://github.com/Iamsdt/StickerGenerator/blob/master/img/output.png)  | ![Second Image](https://github.com/Iamsdt/StickerGenerator/blob/master/img/output2.png) |
 
 ### Android App
 | Splash Screen  | Main App Screen | Output Screen |
