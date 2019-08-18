@@ -18,6 +18,14 @@ Create a sticker store, where user generate images and print from the shop.
 |---| ---| ---|
 |  ![Splash Screen](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175641.png)  | ![Main Page](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175654.png) | ![Output screen](https://github.com/Iamsdt/StickerGenerator/blob/master/img/device-2019-08-18-175717.png) |
 
+## Test
+Download And install [Android App](https://github.com/Iamsdt/StickerGenerator/blob/master/app/release/app-release.apk)
+
+See Server Code: [Server Code](https://github.com/Iamsdt/StickerGenerator/tree/master/server)
+
+Browse Server [Sticker Generator](https://anime-generator.herokuapp.com/)
+
+
 # Architecture
 This app contain 3 parts
 1. Create Gan Model
@@ -28,9 +36,7 @@ This app contain 3 parts
 #### Framework and Datasets
 **Framework**: Pytorch
 
-**Datasets**:
-
-**Datasets Provider**:
+**Datasets**: [anime-faces](https://www.kaggle.com/soumikrakshit/anime-faces)
 
 ### Architecture
 | Generator | Discriminator|
@@ -58,7 +64,7 @@ This app contain 3 parts
 - Matplotlib
 
 #### Kernel Link
-[BN digit with pytorch](https://www.kaggle.com/iamsdt/bn-digit-with-pytorch)
+[Anim Generator Gan PyTorch](https://www.kaggle.com/iamsdt/anim-generator-gan-pytorch)
 
 ## Deploy in web (Rest API)
 Gan model deployed in *heroku*
@@ -80,6 +86,10 @@ the image in base64 encoded string.
 | Gunicorn
 | Imageio
 
+##### Code Link
+See Server Code: [Server Code](https://github.com/Iamsdt/StickerGenerator/tree/master/server)
+
+Browse API: [API link](https://anime-generator.herokuapp.com/)
 
 ## Develop Android App
 For Developing Android App **Android Studio** is used.
@@ -102,6 +112,11 @@ This app contain 4 screens -
 | GSON
 | Timber
 | UCE-Handler
+
+#### Code link
+See source code: [Sticker Generator](https://github.com/Iamsdt/StickerGenerator/tree/master/app)
+
+Download And install [Android App](https://github.com/Iamsdt/StickerGenerator/blob/master/app/release/app-release.apk)
 
 # Develpoer
 **Shudipto Trafder**
